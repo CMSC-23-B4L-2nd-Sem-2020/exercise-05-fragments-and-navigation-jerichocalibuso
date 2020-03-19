@@ -1,64 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+  xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <!--    <LinearLayout-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="match_parent">-->
-
-    <!--        <TextView-->
-    <!--        android:id="@+id/title_text"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_marginTop="56dp"-->
-    <!--        android:fontFamily="@font/montserrat_bold"-->
-    <!--        android:text="@string/title"-->
-    <!--        android:textColor="@color/blue"-->
-    <!--        android:textSize="32sp"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="parent"-->
-    <!--         />-->
-
-    <!--    <EditText-->
-    <!--        android:id="@+id/name_text"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_marginStart="68dp"-->
-    <!--        android:layout_marginTop="136dp"-->
-    <!--        android:fontFamily="@font/montserrat_medium"-->
-    <!--        android:hint="@string/enter_your_name_here_text"-->
-    <!--        android:inputType="textPersonName"-->
-    <!--        android:textColor="@color/blue"-->
-    <!--        android:textSize="15sp"-->
-    <!--        android:transitionName="@string/name_start"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="parent" />-->
-
-    <!--    <ImageView-->
-    <!--        android:id="@+id/name_button"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_marginTop="130dp"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintHorizontal_bias="0.852"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="parent"-->
-    <!--        app:srcCompat="@drawable/name_button" />-->
-    <!--    </LinearLayout>-->
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            HELLO TANGINA
-        </TextView>
+  <androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/startScreenLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
 
 
-    </LinearLayout>
+    <TextView
+      android:id="@+id/title_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/montserrat_bold"
+      android:text="@string/title"
+      android:textColor="@color/blue"
+      android:textSize="32sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.365" />
+
+    <ImageView
+      android:id="@+id/name_image"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.509"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/name_text" />
+
+    <EditText
+      android:id="@+id/name_text"
+      android:layout_width="231dp"
+      android:layout_height="39dp"
+      android:fontFamily="@font/montserrat_medium"
+      android:hint="@string/enter_your_name_here_text"
+      android:inputType="textPersonName"
+      android:textColor="@color/blue"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/name_button"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="@+id/name_image"
+      app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+      android:id="@+id/name_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="@+id/name_image"
+      app:layout_constraintHorizontal_bias="0.984"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.499"
+      app:srcCompat="@drawable/name_button" />
 
 
+  </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

@@ -1,4 +1,4 @@
-package com.example.exer3
+package com.example.calibuso_exer5_lightsoutv2
 
 import org.junit.Test
 

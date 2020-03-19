@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.exer3">
+    package="com.example.calibuso_exer5_lightsoutv2">
 
     <application
         android:allowBackup="true"
