@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent">-->
+
+    <!--        <TextView-->
+    <!--        android:id="@+id/title_text"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="56dp"-->
+    <!--        android:fontFamily="@font/montserrat_bold"-->
+    <!--        android:text="@string/title"-->
+    <!--        android:textColor="@color/blue"-->
+    <!--        android:textSize="32sp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--         />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/name_text"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="68dp"-->
+    <!--        android:layout_marginTop="136dp"-->
+    <!--        android:fontFamily="@font/montserrat_medium"-->
+    <!--        android:hint="@string/enter_your_name_here_text"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        android:textColor="@color/blue"-->
+    <!--        android:textSize="15sp"-->
+    <!--        android:transitionName="@string/name_start"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/name_button"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="130dp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.852"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:srcCompat="@drawable/name_button" />-->
+    <!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            HELLO TANGINA
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</layout>
