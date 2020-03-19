@@ -21,9 +21,19 @@
         <action
           android:id="@+id/action_gameBoardFragment2_to_congtrasScreenFragment"
           app:destination="@id/congtrasScreenFragment" />
+        <action
+          android:id="@+id/action_gameBoardFragment2_to_startScreenFragment2"
+          app:popUpTo="@id/startScreenFragment" />
     </fragment>
     <fragment
       android:id="@+id/congtrasScreenFragment"
       android:name="com.example.calibuso_exer5_lightsoutv2.CongtrasScreenFragment"
-      android:label="CongtrasScreenFragment" />
+      android:label="CongtrasScreenFragment" >
+        <action
+          android:id="@+id/action_congtrasScreenFragment_to_startScreenFragment"
+          app:destination="@id/startScreenFragment" />
+        <action
+          android:id="@+id/action_congtrasScreenFragment_to_startScreenFragment3"
+          app:popUpTo="@id/startScreenFragment" />
+    </fragment>
 </navigation>

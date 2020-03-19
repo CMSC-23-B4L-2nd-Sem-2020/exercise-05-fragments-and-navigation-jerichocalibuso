@@ -321,12 +321,12 @@
                 android:textSize="17sp" />
 
             <ImageView
-                android:id="@+id/retry_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="12sp"
-                android:tag="retry-0-0"
-                app:srcCompat="@drawable/retry" />
+              android:id="@+id/retry_button"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="12sp"
+              android:tag="retry-0-0"
+              app:srcCompat="@drawable/retry" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 

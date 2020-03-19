@@ -23,7 +23,7 @@ class StartScreenFragment : Fragment() {
     savedInstanceState: Bundle?
   ): View? {
 
-    binding = DataBindingUtil.inflate<FragmentStartScreenBinding>(
+    binding = DataBindingUtil.inflate(
       inflater,
       R.layout.fragment_start_screen, container, false
     )

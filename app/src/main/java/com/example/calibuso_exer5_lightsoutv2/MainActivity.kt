@@ -3,6 +3,7 @@ package com.example.calibuso_exer5_lightsoutv2
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.findNavController
 import com.example.calibuso_exer5_lightsoutv2.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -13,4 +14,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
     }
+
 }

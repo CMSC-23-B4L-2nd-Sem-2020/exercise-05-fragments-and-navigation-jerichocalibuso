@@ -10,6 +10,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import com.example.calibuso_exer5_lightsoutv2.databinding.FragmentGameBoardBinding
 
+
 /**
  * A simple [Fragment] subclass.
  */
@@ -24,7 +25,7 @@ class GameBoardFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = DataBindingUtil.inflate<FragmentGameBoardBinding>(
+        binding = DataBindingUtil.inflate(
                 inflater, R.layout.fragment_game_board, container, false)
 
       setListeners()
