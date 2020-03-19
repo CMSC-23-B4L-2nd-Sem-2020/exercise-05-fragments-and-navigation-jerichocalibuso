@@ -1,3 +1,9 @@
+/**
+ * Author: Calibuso, Jericho R.
+ * Date finished: 3/19/20
+ * Description: A refactored lights out game with fragments
+ * */
+
 package com.example.calibuso_exer5_lightsoutv2
 
 import android.os.Bundle

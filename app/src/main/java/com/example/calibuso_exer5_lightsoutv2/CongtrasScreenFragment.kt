@@ -9,10 +9,12 @@ import android.widget.TextView
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import com.example.calibuso_exer5_lightsoutv2.databinding.FragmentCongratsScreenBinding
-
 /**
- * A simple [Fragment] subclass.
- */
+ * Author: Calibuso, Jericho R.
+ * Date finished: 3/19/20
+ * Description: A refactored lights out game with fragments
+ * */
+
 class CongtrasScreenFragment : Fragment() {
 
   private lateinit var binding: FragmentCongratsScreenBinding
