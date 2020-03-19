@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/constraint_layout"
-    android:tag="-1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/gray"
+    android:tag="-1"
     tools:context=".MainActivity">
 
 
@@ -21,12 +21,12 @@
         app:srcCompat="@drawable/name_text" />
 
     <LinearLayout
-        android:visibility="gone"
         android:id="@+id/final_layout"
         android:layout_width="194dp"
         android:layout_height="280dp"
         android:gravity="center_horizontal"
         android:orientation="vertical"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.472"
@@ -146,12 +146,12 @@
         app:srcCompat="@drawable/name_button" />
 
     <LinearLayout
-        android:visibility="gone"
         android:id="@+id/main_layout"
         android:layout_width="match_parent"
         android:layout_height="632dp"
         android:layout_marginTop="80dp"
         android:orientation="vertical"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_text">
@@ -170,32 +170,32 @@
                 android:id="@+id/untapped1_1_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-0-0"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-0-0"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
                 android:id="@+id/untapped1_2_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-0-1"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-0-1"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
                 android:id="@+id/untapped1_3_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-0-2"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-0-2"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
                 android:id="@+id/untapped1_4_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-0-3"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-0-3"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
@@ -221,32 +221,32 @@
                 android:id="@+id/untapped2_1_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-1-0"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-1-0"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
                 android:id="@+id/untapped2_2_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-1-1"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-1-1"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
                 android:id="@+id/untapped2_3_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-1-2"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-1-2"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
                 android:id="@+id/untapped2_4_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-1-3"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-1-3"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
@@ -272,32 +272,32 @@
                 android:id="@+id/untapped3_1_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-2-0"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-2-0"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
                 android:id="@+id/untapped3_2_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-2-1"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-2-1"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
                 android:id="@+id/untapped3_3_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-2-2"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-2-2"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
                 android:id="@+id/untapped3_4_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-2-3"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-2-3"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
@@ -322,32 +322,32 @@
                 android:id="@+id/untapped4_1_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-3-0"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-3-0"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
                 android:id="@+id/untapped4_2_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-3-1"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-3-1"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
                 android:id="@+id/untapped4_3_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-3-2"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-3-2"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
                 android:id="@+id/untapped4_4_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-3-3"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-3-3"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
@@ -372,32 +372,32 @@
                 android:id="@+id/untapped5_1_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-4-0"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-4-0"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
                 android:id="@+id/untapped5_2_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-4-1"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-4-1"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
                 android:id="@+id/untapped5_3_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-4-2"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-4-2"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
                 android:id="@+id/untapped5_4_image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:tag="untapped-4-3"
                 android:layout_marginEnd="11dp"
+                android:tag="untapped-4-3"
                 app:srcCompat="@drawable/untapped" />
 
             <ImageView
@@ -437,10 +437,10 @@
 
             <ImageView
                 android:id="@+id/retry_button"
-                android:tag="retry-0-0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12sp"
+                android:tag="retry-0-0"
                 app:srcCompat="@drawable/retry" />
         </LinearLayout>
     </LinearLayout>
@@ -468,4 +468,4 @@
         app:layout_constraintGuide_begin="377dp" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
